@@ -1,0 +1,18 @@
+#passos do desafio
+
+Foi efetuada instalação do navegador Brave
+
+Sobre o navegador foi adicionada a extensão Metamask
+
+Foi utilizado a ferramenta IPFS para gerar os NFT a partir dos arquivos jpg e png
+
+Foi utilizado a ferramenta Ganache como blockchain para gerar as contas
+
+Foi efetuada compilação do código sugerido e o deploy na carteira Metamask
+
+Na compilação utilizou-se a versão 0.8.20 em função do ERC721 e a EVM istambul
+
+Os métodos foram utilizados e o resultado esperado conforme a aula de orientação ao desafio
+
+O log de execução da ferramenta Remix foi anexado como evidencia
+
