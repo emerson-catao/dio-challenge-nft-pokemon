@@ -1,0 +1,545 @@
+#log desafio pokemon
+
+conta onwer game : dio-nft-2 : 0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0
+
+conta auxiliar : dio-nft-3 : 0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75
+
+
+[block:32 txIndex:-]from: 0x38e...0bab0to: PokeDIO.(constructor)value: 0 weidata: 0x608...40033logs: 0hash: 0xe69...08871
+status	0x1 Transaction mined and execution succeed
+transaction hash	0x37a24eef42e60dfbef17523d515f8e100a950d93c3cf5d7c9181677fe3420a0a
+block hash	0xe6971ca21c45b29896031fe03ae3bc8e779fe4f11b0ed8aa6083518a99008871
+block number	32
+contract address	0xadee46d73c21af56a81b47c85f9f4efc822657d6
+from	0x38e6ec4385395d59edc99b9f54e3fcfdd280bab0
+to	PokeDIO.(constructor)
+gas	2352063 gas
+transaction cost	2352063 gas 
+input	0x608...40033
+decoded input	{}
+decoded output	 - 
+logs	[]
+raw logs	[]
+transact to PokeDIO.createNewPokemon pending ... 
+[block:33 txIndex:-]from: 0x38e...0bab0to: PokeDIO.createNewPokemon(string,address,string) 0xade...657d6value: 0 weidata: 0x555...00000logs: 1hash: 0xbd7...0c921
+status	0x1 Transaction mined and execution succeed
+transaction hash	0xd9a7db424e01e45f67c735c6c268aed5f9ac07cd195e41bf168ce1f134dc29ba
+block hash	0xbd7ac885ba110354490ea7e452ade005034eb886d7871b5f29498ac872b0c921
+block number	33
+from	0x38e6ec4385395d59edc99b9f54e3fcfdd280bab0
+to	PokeDIO.createNewPokemon(string,address,string) 0xadee46d73c21af56a81b47c85f9f4efc822657d6
+gas	231603 gas
+transaction cost	231603 gas 
+input	0x555...00000
+decoded input	{
+	"string _name": "pikachu",
+	"address _to": "0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0",
+	"string _img": "https://ipfs.io/ipfs/QmPLMECMxDmNTbKZgNGPqfprHhnYtBwHiKPGz9NGiBXrQi?filename=pikachu.png"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xadee46d73c21af56a81b47c85f9f4efc822657d6",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0",
+			"2": "0",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0",
+			"tokenId": "0"
+		}
+	}
+]
+raw logs	[
+  {
+    "address": "0xadee46d73c21af56a81b47c85f9f4efc822657d6",
+    "blockHash": "0xbd7ac885ba110354490ea7e452ade005034eb886d7871b5f29498ac872b0c921",
+    "blockNumber": "0x21",
+    "data": "0x",
+    "logIndex": "0x0",
+    "removed": false,
+    "topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "0x00000000000000000000000038e6ec4385395d59edc99b9f54e3fcfdd280bab0",
+      "0x0000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "transactionHash": "0xd9a7db424e01e45f67c735c6c268aed5f9ac07cd195e41bf168ce1f134dc29ba",
+    "transactionIndex": "0x0"
+  }
+]
+transact to PokeDIO.createNewPokemon pending ... 
+[block:34 txIndex:-]from: 0x38e...0bab0to: PokeDIO.createNewPokemon(string,address,string) 0xade...657d6value: 0 weidata: 0x555...00000logs: 1hash: 0x176...2cbce
+status	0x1 Transaction mined and execution succeed
+transaction hash	0xd2709725ce6fdb703cb518c492a12d26484c7df721bb4d098b2d475cd4d4ea01
+block hash	0x1764e43273545fbdd5dfb1d41968db25b868ae81f1034ef2251860a408d2cbce
+block number	34
+from	0x38e6ec4385395d59edc99b9f54e3fcfdd280bab0
+to	PokeDIO.createNewPokemon(string,address,string) 0xadee46d73c21af56a81b47c85f9f4efc822657d6
+gas	217099 gas
+transaction cost	217099 gas 
+input	0x555...00000
+decoded input	{
+	"string _name": "bubbasaure",
+	"address _to": "0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75",
+	"string _img": "https://ipfs.io/ipfs/QmPBu6rBCh8riziG5p8RwLrBqEdoidCagc1KH8vyjVS1ti?filename=poke-turttle.jpg"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xadee46d73c21af56a81b47c85f9f4efc822657d6",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75",
+			"2": "1",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75",
+			"tokenId": "1"
+		}
+	}
+]
+raw logs	[
+  {
+    "address": "0xadee46d73c21af56a81b47c85f9f4efc822657d6",
+    "blockHash": "0x1764e43273545fbdd5dfb1d41968db25b868ae81f1034ef2251860a408d2cbce",
+    "blockNumber": "0x22",
+    "data": "0x",
+    "logIndex": "0x0",
+    "removed": false,
+    "topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "0x000000000000000000000000e755e3258453bed7c8201bcf6a8dbfddf10fbe75",
+      "0x0000000000000000000000000000000000000000000000000000000000000001"
+    ],
+    "transactionHash": "0xd2709725ce6fdb703cb518c492a12d26484c7df721bb4d098b2d475cd4d4ea01",
+    "transactionIndex": "0x0"
+  }
+]
+call to PokeDIO.name
+call
+[call]from: 0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0to: PokeDIO.name()data: 0x06f...dde03
+from	0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0
+to	PokeDIO.name() 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0x06f...dde03
+output	00000000000000000000000000000003200000000000000000000000000000007801111071016873790000000000000000000000000
+decoded input	{}
+decoded output	{
+	"0": "string: PokeDIO"
+}
+logs	[]
+raw logs	[]
+call to PokeDIO.ownerOf
+call
+[call]from: 0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0to: PokeDIO.ownerOf(uint256)data: 0x635...00000
+from	0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0
+to	PokeDIO.ownerOf(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0x635...00000
+output	000000000000562302366713357938923720115515984227252253210128186176
+decoded input	{
+	"uint256 tokenId": "0"
+}
+decoded output	{
+	"0": "address: 0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0"
+}
+logs	[]
+raw logs	[]
+call to PokeDIO.ownerOf
+call
+[call]from: 0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0to: PokeDIO.ownerOf(uint256)data: 0x635...00001
+from	0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0
+to	PokeDIO.ownerOf(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0x635...00001
+output	000000000000231852273713283190215200322720710614119122124115190117
+decoded input	{
+	"uint256 tokenId": "1"
+}
+decoded output	{
+	"0": "address: 0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75"
+}
+logs	[]
+raw logs	[]
+call to PokeDIO.tokenURI
+call
+[call]from: 0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0to: PokeDIO.tokenURI(uint256)data: 0xc87...00000
+from	0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0
+to	PokeDIO.tokenURI(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0xc87...00000
+output	00000000000000000000000000000003200000000000000000000000000000000
+decoded input	{
+	"uint256 tokenId": "0"
+}
+decoded output	{
+	"0": "string: "
+}
+logs	[]
+raw logs	[]
+call to PokeDIO.tokenURI
+call
+[call]from: 0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0to: PokeDIO.tokenURI(uint256)data: 0xc87...00001
+from	0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0
+to	PokeDIO.tokenURI(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0xc87...00001
+output	00000000000000000000000000000003200000000000000000000000000000000
+decoded input	{
+	"uint256 tokenId": "1"
+}
+decoded output	{
+	"0": "string: "
+}
+logs	[]
+raw logs	[]
+transact to PokeDIO.battle pending ... 
+[block:35 txIndex:-]from: 0x38e...0bab0to: PokeDIO.battle(uint256,uint256) 0xade...657d6value: 0 weidata: 0x2a0...00001logs: 0hash: 0x4a4...6f187
+status	0x1 Transaction mined and execution succeed
+transaction hash	0xbf983ababfce447257094fe4b7f6e7522928ed6cd8602e5437e673c774caf659
+block hash	0x4a4fc3464fa739888de9e9b6a11bbbefa0b93210105e76c921b2f46b0916f187
+block number	35
+from	0x38e6ec4385395d59edc99b9f54e3fcfdd280bab0
+to	PokeDIO.battle(uint256,uint256) 0xadee46d73c21af56a81b47c85f9f4efc822657d6
+gas	37482 gas
+transaction cost	37482 gas 
+input	0x2a0...00001
+decoded input	{
+	"uint256 _attackingPokemon": "0",
+	"uint256 _defendingPokemon": "1"
+}
+decoded output	 - 
+logs	[]
+raw logs	[]
+call to PokeDIO.pokemons
+call
+[call]from: 0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0to: PokeDIO.pokemons(uint256)data: 0x858...00000
+from	0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0
+to	PokeDIO.pokemons(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0x858...00000
+output	0000000000000000000000000000000960000000000000000000000000000000300000000000000000000000000000001600000000000000000000000000000000711210510797991041170000000000000000000000000000000000000000000000000000000088104116116112115584747105112102115461051114710511210211547811098076776967771206810978849875901037871801131021121147210411089116661197210575807112257787110566881148110563102105108101110971091016111210510797991041174611211010300000000
+decoded input	{
+	"uint256 ": "0"
+}
+decoded output	{
+	"0": "string: name pikachu",
+	"1": "uint256: level 3",
+	"2": "string: img https://ipfs.io/ipfs/QmPLMECMxDmNTbKZgNGPqfprHhnYtBwHiKPGz9NGiBXrQi?filename=pikachu.png"
+}
+logs	[]
+raw logs	[]
+call to PokeDIO.pokemons
+call
+[call]from: 0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0to: PokeDIO.pokemons(uint256)data: 0x858...00001
+from	0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0
+to	PokeDIO.pokemons(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0x858...00001
+output	000000000000000000000000000000096000000000000000000000000000000020000000000000000000000000000000160000000000000000000000000000000010981179898971159711711410100000000000000000000000000000000000000000000000000000931041161161121155847471051121021154610511147105112102115478110980661175411466671045611410512210571531125682119761146611369100111105100679710399497572561181211068683491161056310210510810111097109101611121111071014511611711411611610810146106112103000
+decoded input	{
+	"uint256 ": "1"
+}
+decoded output	{
+	"0": "string: name bubbasaure",
+	"1": "uint256: level 2",
+	"2": "string: img https://ipfs.io/ipfs/QmPBu6rBCh8riziG5p8RwLrBqEdoidCagc1KH8vyjVS1ti?filename=poke-turttle.jpg"
+}
+logs	[]
+raw logs	[]
+transact to PokeDIO.battle pending ... 
+transact to PokeDIO.battle errored: Error occurred: MetaMask Tx Signature: User denied transaction signature..
+
+MetaMask Tx Signature: User denied transaction signature.
+
+You may want to cautiously increase the gas limit if the transaction went out of gas.
+transact to PokeDIO.createNewPokemon pending ... 
+transact to PokeDIO.createNewPokemon errored: Error occurred: VM Exception while processing transaction: revert apenas o dono do Pokemon pode criar novos Pokemon.
+
+VM Exception while processing transaction: revert apenas o dono do Pokemon pode criar novos Pokemon
+
+You may want to cautiously increase the gas limit if the transaction went out of gas.
+call to PokeDIO.ownerOf
+call
+[call]from: 0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75to: PokeDIO.ownerOf(uint256)data: 0x635...00000
+from	0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75
+to	PokeDIO.ownerOf(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0x635...00000
+output	000000000000562302366713357938923720115515984227252253210128186176
+decoded input	{
+	"uint256 tokenId": "0"
+}
+decoded output	{
+	"0": "address: 0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0"
+}
+logs	[]
+raw logs	[]
+call to PokeDIO.ownerOf
+call
+[call]from: 0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75to: PokeDIO.ownerOf(uint256)data: 0x635...00001
+from	0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75
+to	PokeDIO.ownerOf(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0x635...00001
+output	000000000000231852273713283190215200322720710614119122124115190117
+decoded input	{
+	"uint256 tokenId": "1"
+}
+decoded output	{
+	"0": "address: 0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75"
+}
+logs	[]
+raw logs	[]
+call to PokeDIO.ownerOf
+call to PokeDIO.ownerOf errored: Error occurred: VM Exception while processing transaction: revert.
+
+VM Exception while processing transaction: revert
+
+You may want to cautiously increase the gas limit if the transaction went out of gas.
+call to PokeDIO.ownerOf
+call to PokeDIO.ownerOf errored: Error occurred: VM Exception while processing transaction: revert.
+
+VM Exception while processing transaction: revert
+
+You may want to cautiously increase the gas limit if the transaction went out of gas.
+call to PokeDIO.pokemons
+call
+[call]from: 0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75to: PokeDIO.pokemons(uint256)data: 0x858...00000
+from	0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75
+to	PokeDIO.pokemons(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0x858...00000
+output	0000000000000000000000000000000960000000000000000000000000000000700000000000000000000000000000001600000000000000000000000000000000711210510797991041170000000000000000000000000000000000000000000000000000000088104116116112115584747105112102115461051114710511210211547811098076776967771206810978849875901037871801131021121147210411089116661197210575807112257787110566881148110563102105108101110971091016111210510797991041174611211010300000000
+decoded input	{
+	"uint256 ": "0"
+}
+decoded output	{
+	"0": "string: name pikachu",
+	"1": "uint256: level 7",
+	"2": "string: img https://ipfs.io/ipfs/QmPLMECMxDmNTbKZgNGPqfprHhnYtBwHiKPGz9NGiBXrQi?filename=pikachu.png"
+}
+logs	[]
+raw logs	[]
+call to PokeDIO.pokemons
+call
+[call]from: 0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75to: PokeDIO.pokemons(uint256)data: 0x858...00001
+from	0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75
+to	PokeDIO.pokemons(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0x858...00001
+output	000000000000000000000000000000096000000000000000000000000000000040000000000000000000000000000000160000000000000000000000000000000010981179898971159711711410100000000000000000000000000000000000000000000000000000931041161161121155847471051121021154610511147105112102115478110980661175411466671045611410512210571531125682119761146611369100111105100679710399497572561181211068683491161056310210510810111097109101611121111071014511611711411611610810146106112103000
+decoded input	{
+	"uint256 ": "1"
+}
+decoded output	{
+	"0": "string: name bubbasaure",
+	"1": "uint256: level 4",
+	"2": "string: img https://ipfs.io/ipfs/QmPBu6rBCh8riziG5p8RwLrBqEdoidCagc1KH8vyjVS1ti?filename=poke-turttle.jpg"
+}
+logs	[]
+raw logs	[]
+call to PokeDIO.pokemons
+call to PokeDIO.pokemons errored: Error occurred: VM Exception while processing transaction: revert.
+
+VM Exception while processing transaction: revert
+
+You may want to cautiously increase the gas limit if the transaction went out of gas.
+call to PokeDIO.pokemons
+call to PokeDIO.pokemons errored: Error occurred: VM Exception while processing transaction: revert.
+
+VM Exception while processing transaction: revert
+
+You may want to cautiously increase the gas limit if the transaction went out of gas.
+call to PokeDIO.pokemons
+call to PokeDIO.pokemons errored: Error occurred: VM Exception while processing transaction: revert.
+
+VM Exception while processing transaction: revert
+
+You may want to cautiously increase the gas limit if the transaction went out of gas.
+call to PokeDIO.pokemons
+call to PokeDIO.pokemons errored: Error occurred: VM Exception while processing transaction: revert.
+
+VM Exception while processing transaction: revert
+
+You may want to cautiously increase the gas limit if the transaction went out of gas.
+call to PokeDIO.pokemons
+call
+[call]from: 0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75to: PokeDIO.pokemons(uint256)data: 0x858...00001
+from	0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75
+to	PokeDIO.pokemons(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0x858...00001
+output	000000000000000000000000000000096000000000000000000000000000000040000000000000000000000000000000160000000000000000000000000000000010981179898971159711711410100000000000000000000000000000000000000000000000000000931041161161121155847471051121021154610511147105112102115478110980661175411466671045611410512210571531125682119761146611369100111105100679710399497572561181211068683491161056310210510810111097109101611121111071014511611711411611610810146106112103000
+decoded input	{
+	"uint256 ": "1"
+}
+decoded output	{
+	"0": "string: name bubbasaure",
+	"1": "uint256: level 4",
+	"2": "string: img https://ipfs.io/ipfs/QmPBu6rBCh8riziG5p8RwLrBqEdoidCagc1KH8vyjVS1ti?filename=poke-turttle.jpg"
+}
+logs	[]
+raw logs	[]
+transact to PokeDIO.battle pending ... 
+[block:38 txIndex:-]from: 0xe75...fbe75to: PokeDIO.battle(uint256,uint256) 0xade...657d6value: 0 weidata: 0x2a0...00000logs: 0hash: 0x483...fa597
+status	0x1 Transaction mined and execution succeed
+transaction hash	0x8dec81e0aa8a5b45592198312d1ab53133b77d90b6a25df80674f84b6d52d0bb
+block hash	0x483a75e22f7b286099114d6b23f9214d50eb75b19378fab92c07ecdf178fa597
+block number	38
+from	0xe755e3258453bed7c8201bcf6a8dbfddf10fbe75
+to	PokeDIO.battle(uint256,uint256) 0xadee46d73c21af56a81b47c85f9f4efc822657d6
+gas	37472 gas
+transaction cost	37472 gas 
+input	0x2a0...00000
+decoded input	{
+	"uint256 _attackingPokemon": "1",
+	"uint256 _defendingPokemon": "0"
+}
+decoded output	 - 
+logs	[]
+raw logs	[]
+call to PokeDIO.pokemons
+call
+[call]from: 0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75to: PokeDIO.pokemons(uint256)data: 0x858...00000
+from	0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75
+to	PokeDIO.pokemons(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0x858...00000
+output	0000000000000000000000000000000960000000000000000000000000000000900000000000000000000000000000001600000000000000000000000000000000711210510797991041170000000000000000000000000000000000000000000000000000000088104116116112115584747105112102115461051114710511210211547811098076776967771206810978849875901037871801131021121147210411089116661197210575807112257787110566881148110563102105108101110971091016111210510797991041174611211010300000000
+decoded input	{
+	"uint256 ": "0"
+}
+decoded output	{
+	"0": "string: name pikachu",
+	"1": "uint256: level 9",
+	"2": "string: img https://ipfs.io/ipfs/QmPLMECMxDmNTbKZgNGPqfprHhnYtBwHiKPGz9NGiBXrQi?filename=pikachu.png"
+}
+logs	[]
+raw logs	[]
+call to PokeDIO.pokemons
+call
+[call]from: 0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75to: PokeDIO.pokemons(uint256)data: 0x858...00001
+from	0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75
+to	PokeDIO.pokemons(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0x858...00001
+output	000000000000000000000000000000096000000000000000000000000000000050000000000000000000000000000000160000000000000000000000000000000010981179898971159711711410100000000000000000000000000000000000000000000000000000931041161161121155847471051121021154610511147105112102115478110980661175411466671045611410512210571531125682119761146611369100111105100679710399497572561181211068683491161056310210510810111097109101611121111071014511611711411611610810146106112103000
+decoded input	{
+	"uint256 ": "1"
+}
+decoded output	{
+	"0": "string: name bubbasaure",
+	"1": "uint256: level 5",
+	"2": "string: img https://ipfs.io/ipfs/QmPBu6rBCh8riziG5p8RwLrBqEdoidCagc1KH8vyjVS1ti?filename=poke-turttle.jpg"
+}
+logs	[]
+raw logs	[]
+transact to PokeDIO.createNewPokemon pending ... 
+transact to PokeDIO.createNewPokemon errored: Error occurred: VM Exception while processing transaction: revert apenas o dono do Pokemon pode criar novos Pokemon.
+
+VM Exception while processing transaction: revert apenas o dono do Pokemon pode criar novos Pokemon
+
+You may want to cautiously increase the gas limit if the transaction went out of gas.
+transact to PokeDIO.safeTransferFrom pending ... 
+call to PokeDIO.ownerOf
+call to PokeDIO.ownerOf
+call
+[call]from: 0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75to: PokeDIO.ownerOf(uint256)data: 0x635...00001
+from	0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75
+to	PokeDIO.ownerOf(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0x635...00001
+output	000000000000562302366713357938923720115515984227252253210128186176
+decoded input	{
+	"uint256 tokenId": "1"
+}
+decoded output	{
+	"0": "address: 0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0"
+}
+logs	[]
+raw logs	[]
+[block:40 txIndex:-]from: 0xe75...fbe75to: PokeDIO.safeTransferFrom(address,address,uint256) 0xade...657d6value: 0 weidata: 0x428...00001logs: 1hash: 0xd02...a3b62
+status	0x1 Transaction mined and execution succeed
+transaction hash	0x69617d06336fac12c3795612313481728ea87b124fa89e448ba1010b0385411b
+block hash	0xd02362adb5e906113fda2279dd45a71bb601366a3ad1297c26bfddfa322a3b62
+block number	40
+from	0xe755e3258453bed7c8201bcf6a8dbfddf10fbe75
+to	PokeDIO.safeTransferFrom(address,address,uint256) 0xadee46d73c21af56a81b47c85f9f4efc822657d6
+gas	46169 gas
+transaction cost	41369 gas 
+input	0x428...00001
+decoded input	{
+	"address from": "0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75",
+	"address to": "0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0",
+	"uint256 tokenId": "1"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xadee46d73c21af56a81b47c85f9f4efc822657d6",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75",
+			"1": "0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0",
+			"2": "1",
+			"from": "0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75",
+			"to": "0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0",
+			"tokenId": "1"
+		}
+	}
+]
+raw logs	[
+  {
+    "address": "0xadee46d73c21af56a81b47c85f9f4efc822657d6",
+    "blockHash": "0xd02362adb5e906113fda2279dd45a71bb601366a3ad1297c26bfddfa322a3b62",
+    "blockNumber": "0x28",
+    "data": "0x",
+    "logIndex": "0x0",
+    "removed": false,
+    "topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x000000000000000000000000e755e3258453bed7c8201bcf6a8dbfddf10fbe75",
+      "0x00000000000000000000000038e6ec4385395d59edc99b9f54e3fcfdd280bab0",
+      "0x0000000000000000000000000000000000000000000000000000000000000001"
+    ],
+    "transactionHash": "0x69617d06336fac12c3795612313481728ea87b124fa89e448ba1010b0385411b",
+    "transactionIndex": "0x0"
+  }
+]
+call
+[call]from: 0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75to: PokeDIO.ownerOf(uint256)data: 0x635...00000
+from	0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75
+to	PokeDIO.ownerOf(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0x635...00000
+output	000000000000562302366713357938923720115515984227252253210128186176
+decoded input	{
+	"uint256 tokenId": "0"
+}
+decoded output	{
+	"0": "address: 0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0"
+}
+logs	[]
+raw logs	[]
+call to PokeDIO.ownerOf
+call
+[call]from: 0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75to: PokeDIO.ownerOf(uint256)data: 0x635...00000
+from	0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75
+to	PokeDIO.ownerOf(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0x635...00000
+output	000000000000562302366713357938923720115515984227252253210128186176
+decoded input	{
+	"uint256 tokenId": "0"
+}
+decoded output	{
+	"0": "address: 0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0"
+}
+logs	[]
+raw logs	[]
+call to PokeDIO.ownerOf
+call
+[call]from: 0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75to: PokeDIO.ownerOf(uint256)data: 0x635...00001
+from	0xe755E3258453BEd7c8201BCf6A8DBFDdf10FBE75
+to	PokeDIO.ownerOf(uint256) 0xaDEe46d73C21Af56a81b47c85f9F4eFC822657d6
+input	0x635...00001
+output	000000000000562302366713357938923720115515984227252253210128186176
+decoded input	{
+	"uint256 tokenId": "1"
+}
+decoded output	{
+	"0": "address: 0x38e6ec4385395D59edC99B9F54e3fcFDD280baB0"
+}
+logs	[]
+raw logs	[]
+
